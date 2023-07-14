@@ -31,6 +31,7 @@ public class AviaSoulsTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void testSortTicketsComporatorMultipleReturns() {
         AviaSouls manager = new AviaSouls();
@@ -57,6 +58,7 @@ public class AviaSoulsTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void testSortTicketsCompareToNoResult() {
         AviaSouls manager = new AviaSouls();
@@ -82,6 +84,7 @@ public class AviaSoulsTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void testSortTicketsComporatorNoResult() {
         AviaSouls manager = new AviaSouls();
@@ -108,6 +111,7 @@ public class AviaSoulsTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void testSortTicketsCompareToOneTicket() {
         AviaSouls manager = new AviaSouls();
@@ -133,6 +137,7 @@ public class AviaSoulsTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void testSortTicketsComporatorOneTicket() {
         AviaSouls manager = new AviaSouls();
